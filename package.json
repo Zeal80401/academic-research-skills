@@ -1,0 +1,25 @@
+{
+  "name": "academic-research-skills",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.js",
+  "description": "学术研究技能套件：深度文献研究、论文写作、多视角审稿、全流程编排、系统综述筛选。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "skill",
+    "academic-research"
+  ],
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
